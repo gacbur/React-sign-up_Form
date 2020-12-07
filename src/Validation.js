@@ -7,7 +7,7 @@ export default function Validation(values) {
     }
 
     if (!values.surname) {
-        errors.surname = "Second Name cannot be empty"
+        errors.surname = "Last Name cannot be empty"
     }
 
     if (!values.email) {
