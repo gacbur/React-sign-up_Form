@@ -50,7 +50,7 @@ const Form = () => {
                             type="password"
                             placeholder="Password"
                             name="password"
-                            values={values.password.trim()}
+                            value={values.password.trim()}
                             onChange={handleValuesChange}
                         ></input>
                         <small className="error-message">{errors.password && errors.password}</small>
